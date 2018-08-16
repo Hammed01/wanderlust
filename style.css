@@ -1,0 +1,157 @@
+html,body {
+  
+    margin: 0px !important;
+    padding: 0px !important;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;  
+   overflow-x: hidden;
+  }
+
+
+nav {
+    font-size: 80%;
+}
+.mobile-nav{
+    float: right;
+    margin-top:2%;
+    cursor: pointer;
+    display:none;
+}
+.sticky{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background-color: #ffffff;
+}
+
+
+.left{
+    float:left;
+    margin-top:1%;
+    margin-left: 5%;
+}
+.right{
+    float: right;
+    color: #AFB7C1;
+    margin-right: 5%;
+    margin-top:2%;
+    font-size: 90%;
+    font-weight: 400;
+   
+}
+li{
+    display: inline;
+    text-decoration: none;
+}
+h1{
+    font-family: 'Playfair Display', serif;
+}
+
+li a{
+    margin-right:10px;
+}
+
+header{
+    margin-top: 15%;
+    margin-left: 18%;
+    font-size: 120%;
+}
+form{
+    margin-top: 2%;
+    margin-left: 21%;
+    margin-bottom: 5%;
+}
+input{
+    width: 200px;
+    height: 50px;
+    margin-right: -10px;
+    line-height:normal;
+    background: #ededf0;
+    border: 0.5px solid #b6bcc8;
+}
+input::placeholder{
+    padding-left: 5%;
+    
+}
+div{
+   margin-left:0;
+   margin-right: 0;
+    width:33.3%;   
+    display:block;
+    float: left;
+    
+
+}
+
+
+.div1 {
+    background-image: url('img/image.jpg');
+     background-size: auto auto;
+    background-repeat: no-repeat;
+    
+    color:#fff;
+}
+
+.div2{
+   
+    background-image: url('img/bckgrd1.png');
+    background-size: auto auto;
+    background-repeat: no-repeat;
+    color:#fff;
+    
+
+    
+}
+.fa-star{
+    float:right;
+    margin-right:2%;
+
+}
+.div3{
+       
+        background-image: url('img/image.jpg');
+        background-size: auto auto;
+        background-repeat: no-repeat;
+        color:#fff;
+}
+
+
+.sect-content p,
+.sect-content h2,.sect-content img{
+    width: 300%;
+    text-align: center;
+}
+.sect-content{
+    margin-top: 40% ;
+    margin-bottom: 10%;
+    margin-right:auto ;
+    margin-left:auto;
+   
+
+}
+.sect-content h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+.sect-content p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 90%;
+}
+
+
+input[type="submit"]{
+    background-color:#4887e0;
+    color: rgb(163, 161, 161);
+    border-top-right-radius: 5px;
+    border:0.5px solid #4887e0;;
+    border-bottom-right-radius: 5px;
+    color: #fff;
+}
+.form-one{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}

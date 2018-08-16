@@ -1,0 +1,178 @@
+/* Big Tablets to 1200px;*/
+@media only screen and (max-width:1200px)
+{
+    header{
+        margin-top: 15%;
+        margin-left: 14%;
+        font-size: 110%;
+    }
+    form{
+        margin-top: 2%;
+        margin-left: 15%;
+        margin-bottom: 5%;
+    }
+    
+    
+    
+    
+}
+
+
+
+/* small tablet to big tablet from 767px - 1023px*/
+@media only screen and (max-width:1023px)
+{
+    header{
+        margin-top: 15%;
+        margin-left: 17%;
+        font-size: 90%;
+    }
+    form{
+        margin-top: 2%;
+        margin-left: 15%;
+        margin-bottom: 5%;
+    }
+    .right{
+        float: right;
+        color: #AFB7C1;
+        margin-right: 5%;
+        margin-top:3%;
+        font-size: 90%;
+        font-weight: 400;
+    }
+    
+    
+}
+    
+
+
+
+/* small phones to small tablet from 481 - 767px*/
+
+@media only screen and (max-width:767px)
+{
+    header{
+        margin-top: 20%;
+        margin-left: 13%;
+        font-size:90%;
+    }
+    .right{
+        float: right;
+        color: #AFB7C1;
+        margin-right: 5%;
+        margin-top:5%;
+        font-size: 90%;
+        font-weight: 400;
+    }
+    
+    div{
+       width: 100%;
+        display: block;
+        margin:0;
+    
+    }
+
+    .div1 {
+        background-image: url('img/image.jpg');
+         background-size: 100% 100%;
+        background-repeat: no-repeat;
+        color:#fff;
+    }
+    
+    .div2{
+       
+        background-image: url('img/bckgrd1.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        color:#fff;
+        
+    
+        
+    }
+    .fa-star{
+        float:right;
+        margin-right:2%;
+    
+    }
+    .div3{
+            
+            background-image: url('img/image.jpg');
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+           
+            color:#fff;
+    }
+    
+
+.sect-content p,
+.sect-content h2,.sect-content img{
+   
+    text-align: left;
+}
+.sect-content p,
+.sect-content h2,.sect-content img{
+    width: 100%;
+    text-align: center;
+}
+
+.sect-content{
+    margin-top: 15% ;
+    margin-bottom: 5%;
+    margin-right:auto ;
+    margin-left:auto;
+   
+
+}
+
+.sect-content h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+.sect-content p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 90%;
+}
+}
+
+
+
+/* small phones from 0 - 480px*/
+
+@media only screen and (max-width:480px)
+{
+    
+    header{
+        margin-top: 20%;
+        margin-left: 11%;
+        font-size:50%;
+    }
+    form{
+        margin-top: 3%;
+        margin-left: 26%;
+        margin-bottom: 10%;
+    }
+
+
+    .right{
+        float: left;
+    }
+
+    .right li{
+        display: block;
+        margin-bottom: 10%;
+    }
+    
+    .mobile-nav{
+        
+        margin-top:2%;
+        cursor: pointer;
+        display:inline-block;
+        margin-right: 5%;
+        
+    }
+    
+    .mobile-nav i{
+        font-size: 140%;
+    }
+}
